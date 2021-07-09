@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'caveat-bold';
+  src: url("../../font/caveat/caveat-bold.html");
+  src: url("../../font/caveat/caveat-boldd41d.html?#iefix") format("embedded-opentype"), url("../../font/caveat/caveat-bold-2.html") format("woff2"), url("../../font/caveat/caveat-bold-3.html") format("woff"), url("../../font/caveat/caveat-bold.ttf") format("truetype"), url("../../font/caveat/caveat-bold-4.html#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dk_southwark';
+  src: url("../../font/dk_southwark/dk_southwark-webfont.eot");
+  src: url("../../font/dk_southwark/dk_southwark-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/dk_southwark/dk_southwark-webfont.html") format("woff2"), url("../../font/dk_southwark/dk_southwark-webfont.woff") format("woff"), url("../../font/dk_southwark/dk_southwark-webfont.ttf") format("truetype"), url("../../font/dk_southwark/dk_southwark-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dk_traiectum';
+  src: url("../../font/dk_traiectum/dk_traiectum-webfont.eot");
+  src: url("../../font/dk_traiectum/dk_traiectum-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/dk_traiectum/dk_traiectum-webfont.html") format("woff2"), url("../../font/dk_traiectum/dk_traiectum-webfont.woff") format("woff"), url("../../font/dk_traiectum/dk_traiectum-webfont.ttf") format("truetype"), url("../../font/dk_traiectum/dk_traiectum-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'museo_slab_500';
+  src: url("../../font/museo_slab_500/museo_slab_500-webfont.eot");
+  src: url("../../font/museo_slab_500/museo_slab_500-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/museo_slab_500/museo_slab_500-webfont.html") format("woff2"), url("../../font/museo_slab_500/museo_slab_500-webfont.woff") format("woff"), url("../../font/museo_slab_500/museo_slab_500-webfont.ttf") format("truetype"), url("../../font/museo_slab_500/museo_slab_500-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lemon_tuesday';
+  src: url("../../font/lemon_tuesday/lemon_tuesday-webfont.eot");
+  src: url("../../font/lemon_tuesday/lemon_tuesday-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.html") format("woff2"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.woff") format("woff"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.ttf") format("truetype"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TradeGothicLTBold';
+  src: url("../../font/Trade_Gothic/TradeGothicLTBold.eot");
+  src: url("../../font/Trade_Gothic/TradeGothicLTBold.eot") format("embedded-opentype"), url("../../font/Trade_Gothic/TradeGothicLTBold.html") format("woff2"), url("../../font/Trade_Gothic/TradeGothicLTBold.woff") format("woff"), url("../../font/Trade_Gothic/TradeGothicLTBold.ttf") format("truetype"), url("../../font/Trade_Gothic/TradeGothicLTBold.svg#TradeGothicLTBold") format("svg"); }
+
+@font-face {
+  font-family: 'TradeGothicLT';
+  src: url("../../font/Trade_Gothic/TradeGothicLT.eot");
+  src: url("../../font/Trade_Gothic/TradeGothicLT.eot") format("embedded-opentype"), url("../../font/Trade_Gothic/TradeGothicLT.html") format("woff2"), url("../../font/Trade_Gothic/TradeGothicLT.woff") format("woff"), url("../../font/Trade_Gothic/TradeGothicLT.ttf") format("truetype"), url("../../font/Trade_Gothic/TradeGothicLT.svg#TradeGothicLT") format("svg"); }
+
+@font-face {
+  font-family: 'satisfyregular';
+  src: url("../../font/Satisfy/satisfy-regular-webfont.html") format("woff2"), url("../../font/Satisfy/satisfy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.parallax {
+  height: auto;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (max-width: 575.98px) {
+    .parallax {
+      background-attachment: initial;
+      background-position: center top;
+      background-size: 380%; } }
+  .parallax .title {
+    color: #0A4E33;
+    font-family: satisfyregular;
+    font-size: 3rem; }
+    @media (max-width: 767.98px) {
+      .parallax .title {
+        font-size: 2.5rem; } }
+  .parallax .content {
+    font-family: museo_slab_500;
+    line-height: 2; }
+  .parallax .container {
+    z-index: 2;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .parallax .img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.7; }
+    @media (min-width: 992px) {
+      .parallax .img {
+        background-attachment: fixed; } }
+  .parallax .logo_img {
+    width: 100px;
+    display: inline-block; }
+  .parallax .st0 {
+    fill: #0A4E33; }
+  .parallax .foot {
+    color: #0A4E33; }
+  .parallax .st00 {
+    fill: none;
+    stroke: #0A4E33;
+    stroke-width: 1.5; }
+  .parallax .st11 {
+    fill: none;
+    stroke: #0A4E33;
+    stroke-width: 1.3333;
+    stroke-linecap: round;
+    stroke-linejoin: round; }
+  .parallax .st22 {
+    fill: none;
+    stroke: #0A4E33;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round; }
+
+.type {
+  font-family: TradeGothicLT; }
+  .type .container {
+    padding: 50px 0px 20px; }
+  .type .collapse {
+    padding: 20px 0px; }
+  @media (min-width: 992px) {
+    .type {
+      padding: 50px 0px 0px; } }
+  .type .title {
+    color: #0A4E33;
+    font-family: satisfyregular;
+    font-size: 3rem; }
+    @media (max-width: 767.98px) {
+      .type .title {
+        font-size: 2.5rem; } }
+  .type .bar {
+    max-width: 900px;
+    margin: auto;
+    color: #0A4E33;
+    font-family: TradeGothicLTBold;
+    margin-bottom: 15px; }
+    .type .bar .img {
+      padding: 10px 0px;
+      text-align: center; }
+    .type .bar .collapsed {
+      color: #B8B8B8; }
+  .type .collapse {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; }
+    .type .collapse .col-form-label {
+      font-family: TradeGothicLTBold;
+      color: white;
+      padding-left: 0; }
+    .type .collapse .card-body {
+      padding: 1rem;
+      margin: auto; }
+      @media (min-width: 992px) {
+        .type .collapse .card-body {
+          max-width: 800px;
+          padding: 2.5rem; } }
+      @media (min-width: 1200px) {
+        .type .collapse .card-body {
+          max-width: 900px; } }

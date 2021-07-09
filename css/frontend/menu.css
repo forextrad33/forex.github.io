@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'caveat-bold';
+  src: url("../../font/caveat/caveat-bold.html");
+  src: url("../../font/caveat/caveat-boldd41d.html?#iefix") format("embedded-opentype"), url("../../font/caveat/caveat-bold-2.html") format("woff2"), url("../../font/caveat/caveat-bold-3.html") format("woff"), url("../../font/caveat/caveat-bold.ttf") format("truetype"), url("../../font/caveat/caveat-bold-4.html#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dk_southwark';
+  src: url("../../font/dk_southwark/dk_southwark-webfont.eot");
+  src: url("../../font/dk_southwark/dk_southwark-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/dk_southwark/dk_southwark-webfont.html") format("woff2"), url("../../font/dk_southwark/dk_southwark-webfont.woff") format("woff"), url("../../font/dk_southwark/dk_southwark-webfont.ttf") format("truetype"), url("../../font/dk_southwark/dk_southwark-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dk_traiectum';
+  src: url("../../font/dk_traiectum/dk_traiectum-webfont.eot");
+  src: url("../../font/dk_traiectum/dk_traiectum-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/dk_traiectum/dk_traiectum-webfont.html") format("woff2"), url("../../font/dk_traiectum/dk_traiectum-webfont.woff") format("woff"), url("../../font/dk_traiectum/dk_traiectum-webfont.ttf") format("truetype"), url("../../font/dk_traiectum/dk_traiectum-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'museo_slab_500';
+  src: url("../../font/museo_slab_500/museo_slab_500-webfont.eot");
+  src: url("../../font/museo_slab_500/museo_slab_500-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/museo_slab_500/museo_slab_500-webfont.html") format("woff2"), url("../../font/museo_slab_500/museo_slab_500-webfont.woff") format("woff"), url("../../font/museo_slab_500/museo_slab_500-webfont.ttf") format("truetype"), url("../../font/museo_slab_500/museo_slab_500-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lemon_tuesday';
+  src: url("../../font/lemon_tuesday/lemon_tuesday-webfont.eot");
+  src: url("../../font/lemon_tuesday/lemon_tuesday-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.html") format("woff2"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.woff") format("woff"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.ttf") format("truetype"), url("../../font/lemon_tuesday/lemon_tuesday-webfont.svg#sukhumvit_setmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TradeGothicLTBold';
+  src: url("../../font/Trade_Gothic/TradeGothicLTBold.eot");
+  src: url("../../font/Trade_Gothic/TradeGothicLTBold.eot") format("embedded-opentype"), url("../../font/Trade_Gothic/TradeGothicLTBold.html") format("woff2"), url("../../font/Trade_Gothic/TradeGothicLTBold.woff") format("woff"), url("../../font/Trade_Gothic/TradeGothicLTBold.ttf") format("truetype"), url("../../font/Trade_Gothic/TradeGothicLTBold.svg#TradeGothicLTBold") format("svg"); }
+
+@font-face {
+  font-family: 'TradeGothicLT';
+  src: url("../../font/Trade_Gothic/TradeGothicLT.eot");
+  src: url("../../font/Trade_Gothic/TradeGothicLT.eot") format("embedded-opentype"), url("../../font/Trade_Gothic/TradeGothicLT.html") format("woff2"), url("../../font/Trade_Gothic/TradeGothicLT.woff") format("woff"), url("../../font/Trade_Gothic/TradeGothicLT.ttf") format("truetype"), url("../../font/Trade_Gothic/TradeGothicLT.svg#TradeGothicLT") format("svg"); }
+
+@font-face {
+  font-family: 'satisfyregular';
+  src: url("../../font/Satisfy/satisfy-regular-webfont.html") format("woff2"), url("../../font/Satisfy/satisfy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.menu {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0.8rem;
+  font-family: TradeGothicLTBold;
+  background-image: url("../../images/menu/wood_bg.png"); }
+  .menu .owl-carousel .owl-nav {
+    margin-top: 0px; }
+  .menu .owl-carousel .owl-nav button.owl-next, .menu .owl-carousel .owl-nav button.owl-prev, .menu .owl-carousel button.owl-dot {
+    margin: 3px 10px;
+    font-size: 2rem;
+    line-height: 1; }
+  .menu a {
+    transition: all 0.5s ease;
+    color: #605E58; }
+    .menu a:hover {
+      text-decoration: none;
+      color: #0A4E33; }
+      .menu a:hover .st0 {
+        fill: #0A4E33; }
+      .menu a:hover .st00 {
+        stroke: #0A4E33; }
+      .menu a:hover .st11 {
+        stroke: #0A4E33; }
+      .menu a:hover .st22 {
+        stroke: #0A4E33; }
+    .menu a .st00 {
+      fill: none;
+      stroke: #605E58;
+      stroke-width: 1.5; }
+    .menu a .st11 {
+      fill: none;
+      stroke: #605E58;
+      stroke-width: 1.3333;
+      stroke-linecap: round;
+      stroke-linejoin: round; }
+    .menu a .st22 {
+      fill: none;
+      stroke: #605E58;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round; }
+    .menu a .st0 {
+      fill: #605E58; }
+  .menu .p-2 {
+    padding: 0.5rem 0.7rem !important; }
+    .menu .p-2 img {
+      margin-bottom: 0.5rem; }
+    .menu .p-2.active {
+      color: #0A4E33; }
+      .menu .p-2.active .st0 {
+        fill: #0A4E33; }
+      .menu .p-2.active .st00 {
+        fill: none;
+        stroke: #0A4E33;
+        stroke-width: 1.5; }
+      .menu .p-2.active .st11 {
+        fill: none;
+        stroke: #0A4E33;
+        stroke-width: 1.3333;
+        stroke-linecap: round;
+        stroke-linejoin: round; }
+      .menu .p-2.active .st22 {
+        fill: none;
+        stroke: #0A4E33;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round; }
+  .menu .text {
+    text-transform: uppercase;
+    text-align: center; }
+  .menu .svg {
+    background: url("../../images/menu/tuna.svg") no-repeat top left;
+    background-size: contain;
+    height: 30px;
+    fill: #ace63c; }
+  .menu #Layer_1 {
+    width: 53px;
+    height: 50px; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin: 0; }
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: white; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #0A4E33; }
